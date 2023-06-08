@@ -9,6 +9,12 @@ public class tarea {
 
     private string[] descripciones = {"Limpiar el piso", "Lavar los platos", "Cocinar"};
 
-    
+    public tarea(int id, int a, int b){
+        tareaID = id;
+        descripcion = descripciones[a];
+        duracion = b;
+    }
+    public string? Descripcion { get => descripcion;}
+    public int Duracion { get => duracion;}
 }
 

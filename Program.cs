@@ -1,5 +1,7 @@
 ﻿using tareas;
 int a;
+List<tarea> lista = new List<tarea>();
+var random = new Random(Environment.TickCount);
 
 Console.WriteLine("Ingrese la cantidad de tareas: ");
 int.TryParse(Console.ReadLine(), out a);
